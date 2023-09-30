@@ -25,8 +25,8 @@ void loop()
   
   //code for dht11 sensor
     int readData = DHT.read11(outPin);
-    int t = DHT.temperature;        // Read temperature
-	  Serial.println(t);
+    int temp= DHT.temperature;        // Read temperature
+	  Serial.println(temp);
 	  delay(2000);
    
   //motor initially in off condition
